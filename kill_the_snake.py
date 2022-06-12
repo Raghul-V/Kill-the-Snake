@@ -280,6 +280,9 @@ def ask_for_retry(game_result):
     if want_retry:
         play_game()
 
+    pygame.quit()
+    sys.exit()
+
 
 
 if __name__ == "__main__":
